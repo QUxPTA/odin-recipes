@@ -1,0 +1,54 @@
+/* CSS Reset */
+*,
+::before,
+::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #f1f1f1;
+  padding: 20px;
+}
+
+h1 {
+  color: #4d4a4a;
+  margin-bottom: 20px;
+}
+
+h2 {
+  color: #666;
+  margin: 20px;
+}
+h3 {
+  color: #666;
+  margin: 20px;
+}
+ul,
+ol {
+  margin: 20px;
+  padding: 20px;
+  color: #333;
+}
+
+p {
+  color: #333;
+  padding: 20px;
+}
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  border-radius: 20px;
+}
+a {
+  color: #0b3aba;
+  text-decoration: none;
+}
+a.home-button {
+  display: block;
+  text-align: center;
+}
